@@ -10,6 +10,8 @@ Include the class in your page however you like, and use it the same way you wou
 
 Because this class extends `IntersectionObserver`, you have access to [the same API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) you would with the browser's native object.
 
+If you specify a root element, the guide overlay will be labeled with that element's node type and, if present, the element's ID.
+
 ```js
 const observer = new GuidedIntersectionObserver(callback, options);
 ```
